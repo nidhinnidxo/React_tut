@@ -1,0 +1,92 @@
+body{
+  background-color: rgba(240, 253, 245, 1);
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 44px;
+}
+.counter-app {
+  position: relative;
+  width: 320px;
+  height: 344px;
+  background-color: rgba(17, 19, 20, 1);
+  border-radius: 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.heading {
+  padding-left: 24px;
+  padding-top: 32px;
+  color: rgba(185, 249, 212, 1);
+  font-size: 20px;
+  text-align: left;
+  font-weight: lighter;
+}
+.output {
+  color: rgba(240, 253, 245, 1);
+  font-size: 128px;
+  font-weight: 500;
+  text-shadow: 0 0px 4px rgba(240, 253, 245, 1);
+  text-align: center;
+  margin: -10px 0;
+  padding-top: 0px
+}
+.reset {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  width: 44px;
+  height: 44px;
+  align-items: center;
+  background-color: rgba(185, 249, 212, 1);  
+  color: rgba(4, 47, 25, 1);
+  font-size: 24px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  
+  border: none;
+
+}
+.increment{
+  background-color: rgba(185, 249, 212, 1);
+  color: rgba(4, 47, 25, 1);
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 50px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 19px;
+  padding-right: 19px;
+  margin: 0px 24px;
+  border: none;
+  
+}
+.decrement{
+  background-color: rgba(185, 249, 212, 1);
+  color: rgba(4, 47, 25, 1);
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 50px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 19px;
+  padding-right: 19px;
+  margin: 10px 20px;
+  border: none;
+}
+
+.increment:hover, .decrement:hover, .reset:hover {
+  transform: scale(1.05);
+  background-color: rgba(63, 226, 134, 1);
+  box-shadow: 0 0px 10px rgba(63, 226, 134, 1);
+  
+  cursor: pointer;
+}
+.increment,
+.decrement,
+.reset {
+  transition: all 0.3s ease;
+}
+
+
