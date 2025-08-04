@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import CounterApp from "./conter-app.jsx";
+import Welcome from "./welcome.jsx";
 
 
 
@@ -12,7 +13,9 @@ function App() {
   return (
     <div>
       <CounterApp />
+      <Welcome name="User" />
     </div>
+    
   )
 
 }
