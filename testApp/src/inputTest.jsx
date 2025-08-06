@@ -16,17 +16,20 @@ function InputHandler(props) {
   };
 
   return (
-    <div>
-      
-    <input
-      type="text"
-      value={name}
-      onChange={(e) => setName(e.target.value)}
-      placeholder="Enter your name"
-    />
-    <div>
-      <button onClick={handleGreet}>message</button>
-    </div>
+    <div class="input-handler">
+      <div className="greeting">
+        <h2>Input Handler</h2>
+      </div>
+
+      <input
+        type="text"
+        value={name}
+        onChange={(e) => setName(e.target.value)}
+        placeholder="Enter your name"
+      />
+      <div>
+        <button onClick={handleGreet}>message</button>
+      </div>
     </div>
   );
 }

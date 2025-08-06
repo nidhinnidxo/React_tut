@@ -1,6 +1,6 @@
-body{
+body {
   background-color: rgba(240, 253, 245, 1);
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 44px;
 }
@@ -27,7 +27,7 @@ body{
   text-shadow: 0 0px 4px rgba(240, 253, 245, 1);
   text-align: center;
   margin: -10px 0;
-  padding-top: 0px
+  padding-top: 0px;
 }
 .reset {
   position: absolute;
@@ -36,17 +36,16 @@ body{
   width: 44px;
   height: 44px;
   align-items: center;
-  background-color: rgba(185, 249, 212, 1);  
+  background-color: rgba(185, 249, 212, 1);
   color: rgba(4, 47, 25, 1);
   font-size: 24px;
   border-radius: 50px;
   display: flex;
   justify-content: center;
-  
-  border: none;
 
+  border: none;
 }
-.increment{
+.increment {
   background-color: rgba(185, 249, 212, 1);
   color: rgba(4, 47, 25, 1);
   font-size: 16px;
@@ -59,9 +58,8 @@ body{
   padding-right: 19px;
   margin: 0px 24px;
   border: none;
-  
 }
-.decrement{
+.decrement {
   background-color: rgba(185, 249, 212, 1);
   color: rgba(4, 47, 25, 1);
   font-size: 16px;
@@ -76,11 +74,13 @@ body{
   border: none;
 }
 
-.increment:hover, .decrement:hover, .reset:hover {
+.increment:hover,
+.decrement:hover,
+.reset:hover {
   transform: scale(1.05);
   background-color: rgba(63, 226, 134, 1);
   box-shadow: 0 0px 10px rgba(63, 226, 134, 1);
-  
+
   cursor: pointer;
 }
 .increment,
@@ -89,4 +89,25 @@ body{
   transition: all 0.3s ease;
 }
 
+.welcome {
+  position: absolute;
+  top: 72px;
+  left: 396px;
+  text-align: center;
+  margin-top: 0;
+  
+}
 
+.welcome_button {
+  background-color: rgba(185, 249, 212, 1);
+  color: rgba(4, 47, 25, 1);
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 50px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 19px;
+  padding-right: 19px;
+  border: 2px solid rgba(4, 47, 25, 1);
+}

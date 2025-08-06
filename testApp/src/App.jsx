@@ -14,6 +14,7 @@ function App() {
     <div>
       <CounterApp />
       <Welcome name="User" />
+      
     </div>
     
   )

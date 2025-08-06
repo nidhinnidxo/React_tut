@@ -6,8 +6,8 @@ function Welcome(props) {
     alert(`welcome ${props.name}!`);
   }
   return (
-    <div>
-      <button onClick={greet}>say welcome</button>
+    <div className="welcome">
+      <button class = "welcome_button" onClick={greet}>say welcome</button>
     </div>
   );
 }
