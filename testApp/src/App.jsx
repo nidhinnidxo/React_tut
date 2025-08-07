@@ -3,7 +3,7 @@ import "./App.css";
 import CounterApp from "./conter-app.jsx";
 import Welcome from "./welcome.jsx";
 import InputHandler from "./inputTest.jsx";
-
+import LightDartApp from "./light-dart-app.jsx";
 
 
 
@@ -17,7 +17,7 @@ function App() {
       <CounterApp />
       <Welcome name="User" />
       <InputHandler />
-      
+      <LightDartApp />
     </div>
     
   )
