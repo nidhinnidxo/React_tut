@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import CounterApp from "./conter-app.jsx";
 import Welcome from "./welcome.jsx";
+import InputHandler from "./inputTest.jsx";
 
 
 
@@ -14,6 +15,7 @@ function App() {
     <div>
       <CounterApp />
       <Welcome name="User" />
+      <InputHandler />
       
     </div>
     

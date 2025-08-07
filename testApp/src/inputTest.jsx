@@ -18,10 +18,11 @@ function InputHandler(props) {
   return (
     <div class="input-handler">
       <div className="greeting">
-        <h2>Input Handler</h2>
+        <h2 className="headinput">Input Handler</h2>
       </div>
 
       <input
+      className="input-field"
         type="text"
         value={name}
         onChange={(e) => setName(e.target.value)}

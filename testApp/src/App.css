@@ -111,3 +111,35 @@ body {
   padding-right: 19px;
   border: 2px solid rgba(4, 47, 25, 1);
 }
+
+.input-handler {
+  background-color: rgba(185, 249, 212, 1);
+  position: absolute;
+  padding: 24px;;
+  top: 140px;
+  left: 396px;
+  
+  border-radius: 50px;
+  
+  
+}
+
+.greeting {
+  position: relative;
+  top: -24px;
+  color: rgba(4, 47, 25, 1);
+  font-size: 24px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.input-field {
+  width: 300px;
+  height: 32px;
+  border-radius: 20px;
+  padding: 10px;
+  border: none;
+  background-color: rgba(17, 19, 20, 1);
+  box-shadow: 0 2px 4px rgba(17, 19, 20, 1);
+  color: rgba(240, 253, 245, 1);
+}
