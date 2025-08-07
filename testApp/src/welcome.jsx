@@ -7,7 +7,7 @@ function Welcome(props) {
   }
   return (
     <div className="welcome">
-      <button class = "welcome_button" onClick={greet}>say welcome</button>
+      <button class = "welcome_button" onClick={greet}>Say Hello</button>
     </div>
   );
 }

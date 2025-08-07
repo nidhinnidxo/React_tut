@@ -29,7 +29,7 @@ function InputHandler(props) {
         placeholder="Enter your name"
       />
       <div>
-        <button onClick={handleGreet}>message</button>
+        <button class = "message_button" onClick={handleGreet}>message</button>
       </div>
     </div>
   );
