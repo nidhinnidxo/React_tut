@@ -9,8 +9,8 @@ function LightDartApp() {
 
   return (
     <div className={darkMode ? "dark-mode" : "light-mode"}>
-      <h1>Light Dart Application</h1>
-      <button onClick={toggleDarkMode}>
+      <h3 className="mode-headline">Light Dart Application</h3>
+      <button className = {darkMode ? "light-changer" : "dark-changer"}onClick={toggleDarkMode}>
         Switch to {darkMode ? "Light" : "Dark"} Mode
       </button>
     </div>
